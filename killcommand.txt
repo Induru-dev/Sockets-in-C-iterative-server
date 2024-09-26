@@ -1,0 +1,2 @@
+kill -9  $(ps -a | grep -v 'ps' | awk '{print $1}')
+
